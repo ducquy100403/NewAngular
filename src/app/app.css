@@ -1,0 +1,28 @@
+h1 {
+  padding: 3rem 0;            /* Khoảng cách trong (trên dưới 3rem, trái phải 0) */
+  margin: 0;                  /* Bỏ khoảng cách ngoài */
+  color: #fff;                /* Màu chữ trắng */
+  text-transform: uppercase;  /* Viết hoa toàn bộ */
+  text-align: center;         /* Căn giữa theo chiều ngang */
+}
+
+.btn-main {
+  background-image: linear-gradient(to right, #d434b0, #8029fc); /* Gradient từ hồng sang tím */
+  padding: 0.5rem;              /* Khoảng cách trong 0.5rem */
+  display: flex;                /* Dùng flexbox */
+  justify-content: center;      /* Căn giữa ngang */
+  align-items: center;          /* Căn giữa dọc */
+  border-radius: 6px;           /* Bo góc 6px */
+  cursor: pointer;              /* Khi hover đổi thành bàn tay */
+}
+
+.main {
+  font-family: "Montserrat", serif;  /* Font chữ Montserrat, fallback serif */
+  font-optical-sizing: auto;         /* Tối ưu hiển thị font chữ */
+  font-style: normal;                 /* Kiểu chữ bình thường (không nghiêng) */
+}
+
+.wrapper-cart{
+    background-image: linear-gradient(to right, #d434b0, #8029fc);
+    height: calc(100vh - 70px);
+}
